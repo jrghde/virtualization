@@ -1,0 +1,6 @@
+version: '3.5'
+services:
+  bashscriptContainer:
+    image: ubuntu:bionic
+    container_name: bashscriptContainer
+    tty: true
