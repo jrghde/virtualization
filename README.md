@@ -11,7 +11,5 @@ docker exec bashscriptContainer bash -c ". /tmp/salidu.sh" > salidu.out
 ## pythonwebserver
 ```bash
 docker build -f Dockerfile . -t pythonwebserver
-```
-```bash
 sudo docker run --rm -p 8000:80 --name pythonwebserver pythonwebserver
 ```
