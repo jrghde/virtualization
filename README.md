@@ -1,8 +1,14 @@
 # virtualization
 Modul Virtualisierung
 
-## pythonwebserver
+## salidu
+```bash
+docker-compose up -d
+docker cp ./salidu.sh bashscriptContainer:/tmp/salidu.sh
+docker exec bashscriptContainer bash -c ". /tmp/salidu.sh" > salidu.out
+```
 
+## pythonwebserver
 ```bash
 docker build -f Dockerfile . -t pythonwebserver
 ```
