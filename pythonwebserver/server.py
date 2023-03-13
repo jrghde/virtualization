@@ -7,7 +7,7 @@ import threading
 # Yep, localhost
 hostName = "0.0.0.0"
 # HTTP Port for Webserver
-serverPort = 8081
+serverPort = 80
 
 class Handler(BaseHTTPRequestHandler):
   def do_GET(self):
